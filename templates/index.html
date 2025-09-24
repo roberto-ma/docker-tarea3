@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ app_name }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Welcome to {{ app_name }}</h1>
+        </header>
+        <main>
+            <p>Hello visitor 👋</p>
+            <p><strong>Server Hostname:</strong> {{ hostname }}</p>
+            <p><strong>Your IP:</strong> {{ client_ip }}</p>
+        </main>
+        <footer>
+            <p>Powered by <span class="highlight">FastAPI</span></p>
+        </footer>
+    </div>
+</body>
+</html>
