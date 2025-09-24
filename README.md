@@ -37,7 +37,7 @@ DOCKERHUB_TOKEN: tu_token_dockerhub
 
 ## 🔧 Workflow de GitHub Actions
 
-Crea el archivo `.github/workflows/docker-build-scan.yml`:
+Crea el archivo `.github/workflows/scout.yml`:
 
 ```yaml
 name: Build and Analyze Docker Image
