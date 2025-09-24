@@ -111,13 +111,18 @@ Después de cada ejecución del workflow:
 2. Haz clic en la ejecución más reciente
 3. En la sección **Artifacts**, encontrarás el reporte `docker-scout-report`
 4. Descarga el archivo JSON para ver el análisis detallado de vulnerabilidades
+<img width="886" height="151" alt="image" src="https://github.com/user-attachments/assets/624f3877-abf1-463d-94f9-619575460e2b" />
+
 
 ### Imágenes en Docker Hub
 
 Las imágenes construidas se subirán automáticamente a Docker Hub con el tag:
 ```
-rcmaldonadop/scout:sha-<commit-hash>
+rcmaldonadop/scout
 ```
+<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/2c0855eb-a003-4234-8fdc-adeff7d52180" />
+<img width="886" height="704" alt="image" src="https://github.com/user-attachments/assets/cc28edd2-1c98-45ec-b8ae-0ae50e75837d" />
+
 
 ## 🔍 Qué hace cada paso
 
@@ -157,14 +162,4 @@ tu-proyecto/
 └── README.md
 ```
 
-## 🤝 Contribuir
 
-1. Fork el proyecto
-2. Crea una rama feature (`git checkout -b feature/nueva-caracteristica`)
-3. Commit tus cambios (`git commit -am 'Agrega nueva característica'`)
-4. Push a la rama (`git push origin feature/nueva-caracteristica`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
