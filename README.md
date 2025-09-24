@@ -1,7 +1,3 @@
-# CI/CD Pipeline con Docker y GitHub Actions
-
-Este proyecto implementa un pipeline de integración y despliegue continuo (CI/CD) para aplicaciones FastAPI utilizando GitHub Actions, Docker Hub y Docker Scout para análisis de seguridad.
-
 ## 🚀 Características
 
 - **Construcción automática** de imágenes Docker en cada push a master
@@ -14,6 +10,8 @@ Este proyecto implementa un pipeline de integración y despliegue continuo (CI/C
 - Cuenta en [Docker Hub](https://hub.docker.com/)
 - Repositorio en GitHub
 - Aplicación FastAPI con Dockerfile configurado
+- Imagenes de FastAPI
+  <img width="886" height="370" alt="image" src="https://github.com/user-attachments/assets/9590f131-c54d-46c4-a83c-dcb9a99903aa" />
 
 ## ⚙️ Configuración
 
@@ -27,8 +25,8 @@ Este proyecto implementa un pipeline de integración y despliegue continuo (CI/C
 DOCKERHUB_USERNAME: tu_usuario_dockerhub
 DOCKERHUB_TOKEN: tu_token_dockerhub
 ```
+<img width="886" height="222" alt="image" src="https://github.com/user-attachments/assets/0bf3f08b-373f-483d-b320-48d38f664e1f" />
 
-> **Nota:** Para obtener el token de Docker Hub, ve a Account Settings → Security → New Access Token
 
 ### 2. Crear GitHub Action
 
